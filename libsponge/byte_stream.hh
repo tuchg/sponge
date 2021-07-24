@@ -17,21 +17,12 @@ class ByteStream {
     // that's a sign that you probably want to keep exploring
     // different approaches.
 
-    // byte stream [ ]
-    std::string buffer;
-    // capacity
-    size_t cap;
-    //标记用量
-    size_t total_read;
-    size_t total_write;
-    // 结束标记
-    bool _end;
-
     bool _error{};  //!< Flag indicating that the stream suffered an error.
 
   public:
     //! Construct a stream with room for `capacity` bytes.
     ByteStream(const size_t capacity);
+
     //! \name "Input" interface for the writer
     //!@{
 

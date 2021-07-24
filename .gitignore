@@ -7,6 +7,3 @@ Makefile
 cmake_install.cmake
 CTestTestfile.cmake
 compile_commands.json
-/cmake-build-default-remote-host
-/.idea
-/.clion.source.upload.marker
